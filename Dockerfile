@@ -1,4 +1,4 @@
-FROM --platform=amd64 python:3
+FROM --platform=amd64 python:3.9-slim
 WORKDIR /usr/src/app
 COPY requirements.txt /usr/src/app/
 COPY targets.txt /usr/src/app/

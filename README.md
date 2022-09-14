@@ -13,6 +13,6 @@ Docker.
 * Create ```targets.txt``` file according to the provided ```targets.txt.sample```
 * Run ```docker build -t sslyze-docker .``` to build your docker image
 * You can start an interactive session in your docker container with ```bash run_interactive.sh```
-* In the interactive shell, un ```bash scan.sh``` to start the scan using provided ```targets.txt```
+* In the interactive shell, run ```bash scan.sh``` to start the scan using provided ```targets.txt```
 
 Alternatively, you can run any sslyze commands from the interactive shell. Try running ```python -m sslyze --help```.

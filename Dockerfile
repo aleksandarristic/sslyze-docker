@@ -5,6 +5,6 @@ COPY requirements.txt /usr/src/app/
 # UNCOMMENT IF YOU WANT TO ADD targets.txt FILE TO YOUR IMAGE DURING BUILD
 # COPY targets.txt /usr/src/app/
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir sslyze
 ENTRYPOINT ["python", "-m", "sslyze"]
 CMD ["-h"]
